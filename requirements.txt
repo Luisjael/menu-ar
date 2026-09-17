@@ -1,0 +1,11 @@
+# Para generar los modelos .glb de ejemplo (build_models.py)
+trimesh
+numpy
+
+# Para convertir .glb a .usdz, necesario para AR en iPhone (glb_a_usdz.py)
+usd-core
+pillow
+
+# Para las tarjetas de mesa en PDF (generar_qrs.py)
+reportlab
+qrcode

@@ -1,0 +1,65 @@
+{
+  "nombre": "Parada 47",
+  "bajada": "Hamburguesas y batidas, Naco",
+  "moneda": "RD$",
+  "acento": "#ef6a4c",
+  "mesa": "3",
+  "platos": [
+    {
+      "id": "clasica",
+      "categoria": "Hamburguesas",
+      "nombre": "La clásica de la 47",
+      "precio": 590,
+      "descripcion": "180 g de res, queso americano, lechuga, tomate y salsa de la casa en pan de papa.",
+      "marcas": [
+        "Con papas"
+      ],
+      "modelo": "models/hamburguesa.glb",
+      "usdz": "models/hamburguesa.usdz"
+    },
+    {
+      "id": "doble",
+      "categoria": "Hamburguesas",
+      "nombre": "Doble con tocineta",
+      "precio": 780,
+      "descripcion": "Dos carnes, doble queso, tocineta crujiente y cebolla caramelizada.",
+      "marcas": [
+        "Abundante"
+      ],
+      "modelo": "models/hamburguesa.glb",
+      "usdz": "models/hamburguesa.usdz"
+    },
+    {
+      "id": "flan",
+      "categoria": "Postres",
+      "nombre": "Flan de la casa",
+      "precio": 260,
+      "descripcion": "Receta de la abuela, con caramelo oscuro.",
+      "marcas": [
+        "Sin gluten"
+      ],
+      "modelo": "models/flan.glb",
+      "usdz": "models/flan.usdz"
+    },
+    {
+      "id": "batida",
+      "categoria": "Bebidas",
+      "nombre": "Batida de lechosa",
+      "precio": 190,
+      "descripcion": "Lechosa fresca con leche y hielo, sin azúcar añadida.",
+      "marcas": [
+        "Vegetariano"
+      ],
+      "modelo": "models/morir_sonando.glb",
+      "usdz": "models/morir_sonando.usdz"
+    },
+    {
+      "id": "refresco",
+      "categoria": "Bebidas",
+      "nombre": "Refresco nacional",
+      "precio": 90,
+      "descripcion": "Frío de nevera, en botella de vidrio.",
+      "marcas": []
+    }
+  ]
+}

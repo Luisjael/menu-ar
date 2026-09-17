@@ -1,0 +1,120 @@
+{
+  "nombre": "Casa Anacaona",
+  "bajada": "Cocina dominicana en la Zona Colonial",
+  "moneda": "RD$",
+  "acento": "#f0b429",
+  "mesa": "7",
+  "platos": [
+    {
+      "id": "mofongo-camarones",
+      "categoria": "Principales",
+      "nombre": "Mofongo relleno de camarones",
+      "precio": 890,
+      "descripcion": "Plátano verde majado en pilón con ajo y chicharrón, relleno de camarones salteados en salsa criolla.",
+      "marcas": [
+        "Sin gluten",
+        "El más pedido"
+      ],
+      "modelo": "models/mofongo.glb",
+      "usdz": "models/mofongo.usdz"
+    },
+    {
+      "id": "pescado-horno",
+      "categoria": "Principales",
+      "nombre": "Pescado al horno con cilantro",
+      "precio": 1150,
+      "descripcion": "Mero entero del día, horneado con cilantro ancho, limón y aceite de oliva. Se sirve con tostones.",
+      "marcas": [
+        "Sin gluten",
+        "Pesca del día"
+      ],
+      "modelo": "models/pescado.glb",
+      "usdz": "models/pescado.usdz"
+    },
+    {
+      "id": "hamburguesa-criolla",
+      "categoria": "Principales",
+      "nombre": "Hamburguesa criolla",
+      "precio": 650,
+      "descripcion": "Res molida de la carnicería de la esquina, queso de hoja, cebolla encurtida y papas fritas con sazón.",
+      "marcas": [
+        "Con papas"
+      ],
+      "modelo": "models/hamburguesa.glb",
+      "usdz": "models/hamburguesa.usdz"
+    },
+    {
+      "id": "sancocho",
+      "categoria": "Sopas",
+      "nombre": "Sancocho de siete carnes",
+      "precio": 780,
+      "descripcion": "El de los domingos, todos los días. Con víveres, aguacate y arroz blanco aparte.",
+      "marcas": [
+        "Para compartir"
+      ],
+      "modelo": "models/sancocho.glb",
+      "usdz": "models/sancocho.usdz"
+    },
+    {
+      "id": "sopa-pollo",
+      "categoria": "Sopas",
+      "nombre": "Sopa de pollo con fideos",
+      "precio": 380,
+      "descripcion": "Caldo claro de pollo criollo con fideos finos, apio y un toque de limón.",
+      "marcas": []
+    },
+    {
+      "id": "tostones-queso",
+      "categoria": "Para empezar",
+      "nombre": "Tostones con queso frito",
+      "precio": 420,
+      "descripcion": "Plátano verde frito dos veces con queso de freír y salsa de ajo.",
+      "marcas": [
+        "Vegetariano",
+        "Para compartir"
+      ]
+    },
+    {
+      "id": "yaniqueques",
+      "categoria": "Para empezar",
+      "nombre": "Yaniqueques de la playa",
+      "precio": 290,
+      "descripcion": "Crujientes, recién salidos del aceite, como en Boca Chica.",
+      "marcas": [
+        "Vegetariano"
+      ]
+    },
+    {
+      "id": "flan-coco",
+      "categoria": "Postres",
+      "nombre": "Flan de coco",
+      "precio": 320,
+      "descripcion": "Coco fresco rallado, leche evaporada y caramelo oscuro. Reposa un día entero antes de salir.",
+      "marcas": [
+        "Sin gluten"
+      ],
+      "modelo": "models/flan.glb",
+      "usdz": "models/flan.usdz"
+    },
+    {
+      "id": "morir-sonando",
+      "categoria": "Bebidas",
+      "nombre": "Morir soñando",
+      "precio": 180,
+      "descripcion": "Jugo de chinola con leche bien fría. Se toma antes de que se corte.",
+      "marcas": [
+        "Vegetariano"
+      ],
+      "modelo": "models/morir_sonando.glb",
+      "usdz": "models/morir_sonando.usdz"
+    },
+    {
+      "id": "cafe-colao",
+      "categoria": "Bebidas",
+      "nombre": "Café colao",
+      "precio": 90,
+      "descripcion": "Colado en greca, servido en pocillo, dulce como debe ser.",
+      "marcas": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menú</title>
+<meta name="theme-color" content="#17120f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@10..48,75..100,400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+
+<div class="envoltura">
+
+  <header class="marca">
+    <div>
+      <h1 id="nombre">&nbsp;</h1>
+      <p id="bajada"></p>
+    </div>
+    <span class="mesa" id="mesa"></span>
+  </header>
+
+  <nav class="cats" aria-label="Categorías del menú">
+    <div class="cats-pista" id="cats-pista" role="tablist"></div>
+  </nav>
+
+  <p class="pista" id="pista">
+    <span class="chip3d"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M12 2.6 21 7.4v9.2L12 21.4 3 16.6V7.4z"/><path d="M3 7.4 12 12l9-4.6M12 12v9.4"/></svg>3D</span>
+    <span id="pista-texto"></span>
+  </p>
+
+  <main id="lista"></main>
+
+  <footer class="pie">
+    Menú en 3D por <strong>Mesa Viva</strong>
+  </footer>
+
+</div>
+
+<div class="velo" id="velo"></div>
+
+<section class="hoja" id="hoja" role="dialog" aria-modal="true" aria-labelledby="d-nombre">
+  <button class="cerrar" id="cerrar" type="button" aria-label="Cerrar">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+
+  <div class="escenario" id="escenario"></div>
+  <p class="gira" id="gira">Arrastra para girar el plato</p>
+
+  <div class="detalle">
+    <div class="titulo">
+      <h3 id="d-nombre"></h3>
+      <span class="precio" id="d-precio"></span>
+    </div>
+    <p class="desc" id="d-desc"></p>
+    <div class="marcas" id="d-marcas"></div>
+
+    <button class="btn-ar oculto" id="btn-ar" type="button"></button>
+    <p class="nota-ar oculto" id="nota-ar">Tamaño real. Apunta la cámara a tu mesa y mueve el celular despacio.</p>
+    <p class="aviso oculto" id="aviso"></p>
+  </div>
+</section>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@4.3.1/dist/model-viewer.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
