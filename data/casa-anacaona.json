@@ -3,7 +3,6 @@
   "bajada": "Cocina dominicana en la Zona Colonial",
   "moneda": "RD$",
   "acento": "#f0b429",
-  "mesa": "7",
   "platos": [
     {
       "id": "mofongo-camarones",
