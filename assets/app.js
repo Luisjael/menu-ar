@@ -48,10 +48,7 @@ function pintarCabecera() {
   $('#nombre').textContent = datos.nombre;
   $('#bajada').textContent = datos.bajada || '';
   document.title = `${datos.nombre} — Menú`;
-  const mesa = MESA || datos.mesa;
-  if (mesa) $('#mesa').textContent = `Mesa ${mesa}`;
-  else $('#mesa').classList.add('oculto');
-
+  
   const con3d = datos.platos.filter(p => p.modelo).length;
   $('#pista-texto').textContent = con3d
     ? `${con3d} platos los puedes ver en tamaño real sobre tu mesa.`
