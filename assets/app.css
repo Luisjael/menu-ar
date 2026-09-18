@@ -63,17 +63,7 @@ body {
   font-size: 13.5px;
 }
 
-.mesa {
-  flex: none;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--maduro);
-  border: 1px solid color-mix(in srgb, var(--maduro) 34%, transparent);
-  border-radius: 999px;
-  padding: 5px 11px;
-  white-space: nowrap;
-  margin-top: 4px;
-}
+
 
 /* ── Categorías ───────────────────────────────────────────── */
 .cats {
