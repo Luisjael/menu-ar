@@ -3,7 +3,6 @@
   "bajada": "Hamburguesas y batidas, Naco",
   "moneda": "RD$",
   "acento": "#ef6a4c",
-  "mesa": "3",
   "platos": [
     {
       "id": "clasica",
