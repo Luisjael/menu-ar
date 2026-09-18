@@ -3,7 +3,6 @@
 
 const params = new URLSearchParams(location.search);
 let SLUG = params.get('r') || location.hash.replace('#', '') || 'casa-anacaona';
-const MESA = params.get('mesa');
 
 const $ = (s, n = document) => n.querySelector(s);
 const el = (t, cls) => { const n = document.createElement(t); if (cls) n.className = cls; return n; };
