@@ -4,6 +4,16 @@
   "moneda": "RD$",
   "acento": "#f0b429",
   "platos": [
+        {
+      "id": "la-bandera",
+      "categoria": "Principales",
+      "nombre": "La Bandera Dominicana",
+      "precio": 750,
+      "descripcion": "PRECIO Y DESCRIPCIÓN DE PRUEBA — reemplazar. Arroz blanco, habichuelas guisadas, carne y ensalada.",
+      "marcas": ["Escaneo real"],
+      "modelo": "models/la-bandera.glb",
+      "usdz": "models/la-bandera.usdz"
+    },
     {
       "id": "mofongo-camarones",
       "categoria": "Principales",
