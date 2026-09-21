@@ -14,6 +14,56 @@
       "modelo": "models/la-bandera.glb",
       "usdz": "models/la-bandera.usdz"
     },
+        {
+      "id": "chicharron",
+      "categoria": "Para empezar",
+      "nombre": "Chicharrón de cerdo",
+      "precio": 450,
+      "descripcion": "PRECIO Y DESCRIPCIÓN DE PRUEBA — reemplazar. Con pica pica de tomate y cebolla, limón y ensalada.",
+      "marcas": ["Escaneo real"],
+      "modelo": "models/chicharron.glb",
+      "usdz": "models/chicharron.usdz"
+    },
+    {
+      "id": "chivo-guisado",
+      "categoria": "Principales",
+      "nombre": "Chivo guisado",
+      "precio": 780,
+      "descripcion": "PRECIO Y DESCRIPCIÓN DE PRUEBA — reemplazar. Chivo criollo guisado en su propia salsa, servido en cazuela de barro.",
+      "marcas": ["Escaneo real"],
+      "modelo": "models/chivo.glb",
+      "usdz": "models/chivo.usdz"
+    },
+    {
+      "id": "mangu-tres-golpes",
+      "categoria": "Principales",
+      "nombre": "Mangú con los tres golpes",
+      "precio": 420,
+      "descripcion": "PRECIO Y DESCRIPCIÓN DE PRUEBA — reemplazar. Plátano majado con cebolla encurtida, aguacate y frituras.",
+      "marcas": ["Escaneo real"],
+      "modelo": "models/mangu.glb",
+      "usdz": "models/mangu.usdz"
+    },
+    {
+      "id": "pescado-frito",
+      "categoria": "Principales",
+      "nombre": "Pescado frito entero",
+      "precio": 950,
+      "descripcion": "PRECIO Y DESCRIPCIÓN DE PRUEBA — reemplazar. Pescado entero frito, con tostones y limón.",
+      "marcas": ["Escaneo real"],
+      "modelo": "models/pescado-frito.glb",
+      "usdz": "models/pescado-frito.usdz"
+    },
+    {
+      "id": "plato-tipico",
+      "categoria": "Principales",
+      "nombre": "Plato típico dominicano",
+      "precio": 650,
+      "descripcion": "PRECIO Y DESCRIPCIÓN DE PRUEBA — reemplazar.",
+      "marcas": ["Escaneo real"],
+      "modelo": "models/plato-tipico.glb",
+      "usdz": "models/plato-tipico.usdz"
+    },
     {
       "id": "mofongo-camarones",
       "categoria": "Principales",
