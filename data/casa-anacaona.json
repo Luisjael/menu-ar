@@ -65,6 +65,26 @@
       "usdz": "models/plato-tipico.usdz"
     },
     {
+      "id": "plato-don",
+      "categoria": "Principales",
+      "nombre": "Plato Don",
+      "precio": 600,
+      "descripcion": "PRECIO Y DESCRIPCION DE PRUEBA - reemplazar.",
+      "marcas": [],
+      "modelo": "models/don.glb",
+      "usdz": "models/don.usdz"
+    },
+    {
+      "id": "carne-arroz",
+      "categoria": "Principales",
+      "nombre": "Carne con arroz",
+      "precio": 650,
+      "descripcion": "PRECIO Y DESCRIPCION DE PRUEBA - reemplazar.",
+      "marcas": [],
+      "modelo": "models/carne-arroz.glb",
+      "usdz": "models/carne-arroz.usdz"
+    },
+    {
       "id": "mofongo-camarones",
       "categoria": "Principales",
       "nombre": "Mofongo relleno de camarones",
